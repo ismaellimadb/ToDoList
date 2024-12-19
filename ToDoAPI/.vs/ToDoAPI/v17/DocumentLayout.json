@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\websee\\todolist\\todoapi\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\websee\\todolist\\todoapi\\todoapi\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\websee\\todolist\\todoapi\\todoapi\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\websee\\todolist\\todoapi\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAF4F5-5D57-40BB-B1A4-69E0EB64BC09}|ToDoAPI\\ToDoAPI.csproj|solutionrelative:todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\appsettings.json",
+              "RelativeToolTip": "ToDoAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T11:17:38.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoTask.cs",
+              "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Models\\ToDoTask.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Models\\ToDoTask.cs",
+              "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Models\\ToDoTask.cs",
+              "RelativeToolTip": "ToDoAPI\\Models\\ToDoTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:17:30.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoContext.cs",
+              "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Data\\ToDoContext.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Data\\ToDoContext.cs",
+              "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Data\\ToDoContext.cs",
+              "RelativeToolTip": "ToDoAPI\\Data\\ToDoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:16:55.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "ToDoAPI\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\WebSee\\ToDoList\\ToDoAPI\\ToDoAPI\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "ToDoAPI\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:16:10.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

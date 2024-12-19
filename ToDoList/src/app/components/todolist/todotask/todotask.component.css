@@ -1,0 +1,53 @@
+.acoes {
+    display: flex;
+    justify-content: flex-end
+  }
+  
+  .botao-acao {
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  
+  .tarefas {
+    background-color: #F8F9FE;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .tarefas .name {
+    margin: 1rem auto;
+    word-wrap: break-word;
+  }
+  
+  .tarefas .description {
+    word-wrap: break-word;
+  }
+  
+  .tarefa {
+    box-shadow: 8px 8px 0px #154580;
+  }
+  
+  .tarefa-concluida{
+    box-shadow: 8px 8px 0px #84EEC1;
+  }
+  
+  .tarefas-g {
+    width: 556px;
+  }
+  
+  .tarefas-p {
+    width: 262px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tarefas-g {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .tarefas-p {
+      width: 100%;
+    }
+  }

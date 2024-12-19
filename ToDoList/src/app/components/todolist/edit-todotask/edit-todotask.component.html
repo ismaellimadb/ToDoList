@@ -1,0 +1,63 @@
+<section class="container editar-tarefas ff-inter">
+    <header class="header">
+      <h2>Edite uma <br>tarefa:</h2>
+    </header>
+    <form>
+      <label for="name">Nome</label>
+      <input
+        type="textarea"
+        class="input"
+        id="name"
+        name="name"
+        placeholder="De um nome para a tarefa"
+        [(ngModel)]="todoTask.name"
+       
+      >
+      <label for="descricao">Descrição</label>
+      <input
+        type="text"
+        class="input"
+        id="descricao"
+        name="descricao"
+        placeholder="O que precisa ser feito?"
+        [(ngModel)]="todoTask.description"
+      >
+      <label for="tarefa">Tarefa completa?</label>
+      <div class="container-radio">
+        <div class="radio-modelo">
+          <label for="tarefacompleta">
+            <input 
+                class="custom-radio"
+                type="checkbox" 
+                name="isCompleted" 
+                [(ngModel)]="todoTask.isCompleted" > 
+            <span>Sim</span>
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="container-radio">
+        <div class="radio-modelo">
+          Prévia Tarefa Pendente:
+          <div class="modelo tarefa ff-roboto-mono">
+            <img src="/tarefa.png" alt="Aspas azuis">
+            <p class="name">{{ todoTask.name}}</p>
+            <p class="description"><b>{{ todoTask.description }}</b></p>
+          </div>
+        </div>
+  
+        <div class="radio-modelo">
+          Prévia Tarefa Completa:
+          <div class="modelo tarefa-concluida ff-roboto-mono">
+            <img src="/tarefa-concluida.png" alt="Aspas verde claro">
+            <p class="name">{{ todoTask.name }}</p>
+            <p class="description"><b>{{ todoTask.description }}</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="acoes">
+        <button (click)="editToDoTask()" class="botao">Salvar</button>
+        <button (click)="cancel()" class="botao">Cancelar</button>
+      </div>
+    </form>
+  </section>

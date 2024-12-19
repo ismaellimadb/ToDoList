@@ -1,0 +1,72 @@
+<section class="container criar-tarefas ff-inter">
+    <header class="header">
+      <h2>Adicione uma <br>tarefa:</h2>
+    </header>
+    <form [formGroup]="form">
+      <label for="name">Nome</label>
+      <input
+        type="textarea"
+        class="input"
+        id="name"
+        formControlName="name"
+        placeholder="De um nome para a tarefa"       
+      >
+      <div class="mensagem__erro"  *ngIf="form.get('name')?.errors?.['required'] && form.get('name')?.touched">
+        Nome é obrigatório!
+      </div>
+      <div class="mensagem__erro"  *ngIf="form.get('name')?.errors?.['minlength']  && form.get('name')?.touched">
+        Nome precisa ter no mínimo 3 caracteres!!
+      </div>
+      <label for="description">Descrição</label>
+      <input
+        type="text"
+        class="input"
+        id="description"
+        formControlName="description"
+        placeholder="O que precisa ser feito?"
+      >
+      <div class="mensagem__erro"  *ngIf="form.get('description')?.errors?.['required'] && form.get('description')?.touched">
+        Descrição é obrigatória!
+      </div>
+      <label for="tarefa">Tarefa completa?</label>
+      <div class="container-radio">
+        <div class="radio-modelo">
+          <label for="tarefacompleta">
+            <input 
+              class="custom-radio"
+              type="checkbox" 
+              formControlName="isCompleted"
+            > 
+            <span>Sim</span>
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="container-radio">
+        <div class="radio-modelo">
+          Prévia Tarefa Pendente:
+          <div class="modelo tarefa ff-roboto-mono">
+            <img src="/tarefa.png" alt="Aspas azuis">
+            <p class="name">{{ form.get('name')?.value }}</p>
+            <p class="description"><b>{{ form.get('description')?.value }}</b></p>
+          </div>
+        </div>
+  
+        <div class="radio-modelo">
+          Prévia Tarefa Completa:
+          <div class="modelo tarefa-concluida ff-roboto-mono">
+            <img src="/tarefa-concluida.png" alt="Aspas verde claro">
+            <p class="name">{{ form.get('name')?.value }}</p>
+            <p class="description"><b>{{ form.get('description')?.value }}</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="acoes">
+        <button (click)="createToDoTask()" 
+        [disabled]="!form.valid"
+        [ngClass]="dwellBoton()"
+        >Salvar</button>
+        <button (click)="cancel()" class="botao">Cancelar</button>
+      </div>
+    </form>
+  </section>

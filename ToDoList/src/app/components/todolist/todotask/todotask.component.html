@@ -1,0 +1,16 @@
+<div class="tarefas ff-roboto-mono" [ngClass]="widthTaskDescription()">
+    <img [src]="todoTask.isCompleted ? '/tarefa-concluida.png' : '/tarefa.png'"  alt="Aspas coloridas">
+    <p class="name">{{ todoTask.name }}</p>
+    <p class="description"><b>{{ todoTask.description }}</b></p>
+    <div class="acoes">
+      <button class="botao-acao" routerLink="/editToDoTask/{{todoTask.id}}" *ngIf="!todoTask.isCompleted">
+        <img src="/icone-editar.png" alt="Ícone de editar">
+      </button>
+      <button class="botao-acao" routerLink="/deleteToDoTask/{{todoTask.id}}">
+        <img src="/icone-excluir.png" alt="Ícone de excluir">
+      </button>
+      <button class="botao-acao" routerLink="/concludeToDoTask/{{todoTask.id}}" *ngIf="!todoTask.isCompleted">
+        <img src="/icone-concluir.png" alt="Ícone de conclur">
+      </button>
+  </div>
+</div>

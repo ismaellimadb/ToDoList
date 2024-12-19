@@ -1,0 +1,16 @@
+<section class="container">
+    <header class="header d-flex">
+      <h2 class="ff-inter">Minhas tarefas</h2>
+      <button routerLink="/createToDoTask" class="botao">Adicionar tarefa</button>
+    </header>
+    <div class="mural" *ngIf="todoTasks.length > 0, else noTasks">
+        <div *ngFor="let todoTask of todoTasks">
+          <app-todotask [todoTask]="todoTask"></app-todotask>
+        </div>
+      </div>
+</section>
+<ng-template #noTasks>
+      <div class="ff-inter sem-tarefas">
+        <p>Ainda não há tarefas cadastrados!</p>
+      </div>
+</ng-template>
